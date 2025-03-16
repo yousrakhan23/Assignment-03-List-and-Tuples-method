@@ -51,3 +51,11 @@ The clear method modifies the original list and makes it empty.
 If you want to create a new empty list without modifying the original, you can simply reassign the variables.
 Q: What is a Tuple in Python?
 A tuple is similar to a list, but it is immutable, meaning its elements cannot be changed after creation. Tuples are defined using parentheses ().
+Q: What is Tuple Unpacking?
+Tuple unpacking allows you to assign the elements of a tuple to separate variables in a single statement.
+* Key Points About Tuple Unpacking:
+The number of variables on the left-hand side must match the number of elements in the tuple.
+Q: How to Sort Without Using sort()?
+To sort a list without using the built-in sort() method, we can use an algorithm like Bubble Sort, Selection Sort, or any other sorting algorithm. Here, I'll use the Selection Sort algorithm because it's simple and easy to understand.
+Q: What is Selection Sort?
+Selection Sort works by repeatedly finding the largest (or smallest) element in the unsorted part of the list and swapping it with the first unsorted element. This process continues until the entire list is sorted.
